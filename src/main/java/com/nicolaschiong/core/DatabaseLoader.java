@@ -49,9 +49,8 @@ public class DatabaseLoader implements ApplicationRunner {
         };
 
         List<User> students = Arrays.asList(
-                users.save(new User("nicolaschiong", "Nick", "Chiong", "12345", new String[]{"ROLE_USER", "ROLE_ADMIN"})),
-                users.save(new User("sjimenez", "Shanyl", "Jimenez", "12345", new String[]{"ROLE_USER"})),
-                users.save(new User("chator", "Chacha", "Tortor", "12345", new String[]{"ROLE_USER"}))
+                users.save(new User("nicolaschiong", "Nick", "Chiong", "12345", new String[]{"ROLE_USER", "ROLE_ADMIN"}, "nick@usjr.edu.ph", "Tungkop", "Male", "01-19-1996", "#", "A+")),
+                users.save(new User("sjimenez", "Shanyl", "Jimenez", "12345", new String[]{"ROLE_USER"}, "nick@usjr.edu.ph", "Lipata", "Female", "01-31-1996", "#", "A+"))
 
         );
 
